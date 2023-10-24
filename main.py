@@ -1,5 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
+from secret_values import spotifyID, spotifySecretID
+
 date = input("what year-month-day do you want the billboard top 100 for? ")
 
 
