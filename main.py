@@ -1,4 +1,6 @@
 import requests
+import spotipy
+from spotipy.oauth2 import SpotifyClientCredentials
 from bs4 import BeautifulSoup
 from secret_values import spotifyID, spotifySecretID
 
